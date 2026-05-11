@@ -6,6 +6,12 @@ __pycache__/
 # C extensions
 *.so
 
+# avoiding data:
+.venv/
+__pycache__/
+*.pkl
+data/
+
 # Distribution / packaging
 .Python
 build/
